@@ -1,0 +1,27 @@
+@import url(http://fonts.googleapis.com/earlyaccess/opensanshebrew.css);
+.font {
+  font-family: 'Open Sans Hebrew' !important;
+}
+.font h5,
+.font h4,
+.font h3,
+.font h2,
+.font h1 {
+  font-family: 'Open Sans Hebrew' !important;
+}
+.font .deal-description span {
+  font-family: 'Open Sans Hebrew' !important;
+}
+.font-ie {
+  font-family: arial, sans-serif !important;
+}
+.font-ie h5,
+.font-ie h4,
+.font-ie h3,
+.font-ie h2,
+.font-ie h1 {
+  font-family: arial, sans-serif !important;
+}
+.font-ie .deal-description span {
+  font-family: arial, sans-serif !important;
+}

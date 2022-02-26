@@ -1,0 +1,57 @@
+<?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed'); ?>
+
+ERROR - 2016-10-17 00:07:39 --> surf current ip address - 176.13.244.122
+ERROR - 2016-10-17 00:07:41 --> 404 Page Not Found --> undefined
+ERROR - 2016-10-17 00:08:52 --> surf current ip address - 176.13.244.122
+ERROR - 2016-10-17 00:26:36 --> surf current ip address - 46.19.85.61
+ERROR - 2016-10-17 00:26:39 --> 404 Page Not Found --> undefined
+ERROR - 2016-10-17 00:27:05 --> surf current ip address - 46.19.85.61
+ERROR - 2016-10-17 00:32:56 --> surf current ip address - 37.142.200.34
+ERROR - 2016-10-17 00:32:58 --> 404 Page Not Found --> apple-touch-icon-120x120-precomposed.png
+ERROR - 2016-10-17 00:32:59 --> 404 Page Not Found --> apple-touch-icon-120x120.png
+ERROR - 2016-10-17 00:32:59 --> 404 Page Not Found --> apple-touch-icon.png
+ERROR - 2016-10-17 00:33:00 --> 404 Page Not Found --> apple-touch-icon.png
+ERROR - 2016-10-17 00:36:06 --> surf current ip address - 46.19.85.61
+ERROR - 2016-10-17 00:36:08 --> 404 Page Not Found --> undefined
+ERROR - 2016-10-17 00:37:53 --> surf current ip address - 46.19.85.61
+ERROR - 2016-10-17 00:39:11 --> surf current ip address - 46.19.86.113
+ERROR - 2016-10-17 00:39:13 --> 404 Page Not Found --> undefined
+ERROR - 2016-10-17 00:46:02 --> surf current ip address - 141.226.151.207
+ERROR - 2016-10-17 00:49:09 --> surf current ip address - 141.226.151.207
+ERROR - 2016-10-17 02:50:15 --> surf current ip address - 2.55.154.232
+ERROR - 2016-10-17 02:50:17 --> 404 Page Not Found --> undefined
+ERROR - 2016-10-17 03:28:40 --> 404 Page Not Found --> 
+ERROR - 2016-10-17 03:28:40 --> 404 Page Not Found --> th1s_1s_a_4o4.html
+ERROR - 2016-10-17 03:30:57 --> surf current ip address - 2.53.144.63
+ERROR - 2016-10-17 03:39:35 --> surf current ip address - 2.53.47.242
+ERROR - 2016-10-17 03:40:50 --> surf current ip address - 213.57.170.102
+ERROR - 2016-10-17 03:40:51 --> 404 Page Not Found --> undefined
+ERROR - 2016-10-17 03:44:33 --> surf current ip address - 2.53.144.63
+ERROR - 2016-10-17 04:20:30 --> surf current ip address - 37.142.200.34
+ERROR - 2016-10-17 04:24:19 --> surf current ip address - 2.53.47.242
+ERROR - 2016-10-17 04:37:57 --> surf current ip address - 46.19.85.61
+ERROR - 2016-10-17 04:38:01 --> 404 Page Not Found --> undefined
+ERROR - 2016-10-17 04:38:31 --> surf current ip address - 46.19.85.61
+ERROR - 2016-10-17 04:38:47 --> surf current ip address - 46.19.85.61
+ERROR - 2016-10-17 04:50:56 --> surf current ip address - 46.19.85.133
+ERROR - 2016-10-17 05:02:22 --> 404 Page Not Found --> offline.jpg
+ERROR - 2016-10-17 07:29:55 --> surf current ip address - 2.53.47.242
+ERROR - 2016-10-17 07:44:20 --> surf current ip address - 2.55.154.232
+ERROR - 2016-10-17 09:05:54 --> surf current ip address - 46.19.85.133
+ERROR - 2016-10-17 09:25:43 --> 404 Page Not Found --> 
+ERROR - 2016-10-17 10:41:07 --> 404 Page Not Found --> robots.txt
+ERROR - 2016-10-17 10:44:30 --> 404 Page Not Found --> 
+ERROR - 2016-10-17 11:16:18 --> surf current ip address - 37.142.239.66
+ERROR - 2016-10-17 15:57:31 --> surf current ip address - 37.142.239.66
+ERROR - 2016-10-17 16:25:25 --> surf current ip address - 37.142.239.66
+ERROR - 2016-10-17 20:52:57 --> surf current ip address - 2.53.47.242
+ERROR - 2016-10-17 20:55:12 --> surf current ip address - 2.53.47.242
+ERROR - 2016-10-17 21:49:22 --> surf current ip address - 2.53.144.109
+ERROR - 2016-10-17 21:49:23 --> 404 Page Not Found --> undefined
+ERROR - 2016-10-17 21:49:40 --> surf current ip address - 2.53.144.109
+ERROR - 2016-10-17 21:49:58 --> surf current ip address - 2.53.144.109
+ERROR - 2016-10-17 21:50:13 --> surf current ip address - 2.53.144.109
+ERROR - 2016-10-17 21:50:36 --> surf current ip address - 2.53.144.109
+ERROR - 2016-10-17 23:27:19 --> 404 Page Not Found --> images
+ERROR - 2016-10-17 23:27:20 --> 404 Page Not Found --> images
+ERROR - 2016-10-17 23:27:23 --> 404 Page Not Found --> images

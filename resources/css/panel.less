@@ -1,0 +1,107 @@
+@import url(generl.less);
+@import url(animations.less);
+
+body {
+    width:100%;
+    .container-fluid {
+        position:relative;
+    }
+    #alert-container {
+        position: absolute;
+        top:50px;
+        left:0;
+        right:0;
+        .alert-error {
+            color: #b94a48;
+            background-color: #f2dede;
+            border-color: #eed3d7;
+        }
+        .alert {
+            .transition(all .3s ease-in);
+//            .animation(bounce 1s linear);
+            overflow: hidden;
+            height:0;
+            padding: 0px 14px 0px 35px;
+            margin-bottom: 0;
+            text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+            background-color: #fcf8e3;
+            border: 1px solid #fbeed5;
+            -webkit-border-radius: 4px;
+            -moz-border-radius: 4px;
+            border-radius: 4px;
+        }
+
+        .alert-open {
+            height:38px;
+            padding: 8px 14px 8px 35px;
+        }
+    }
+    .panel-wrapper {
+        .panel-header {
+
+        }
+        .panel-body {
+            position:relative;
+            .loader {
+                position: absolute;
+                top:0;
+                left:0;
+                right:0;
+                text-align: center;
+            }
+            .tabs-panel {
+                .tab {
+                    //display: inline-block;
+                    padding:5px 8px;
+                    //margin-right:-4px;
+                    border:1px solid #ccc;
+                    background:#fff;
+                    cursor:pointer;
+                    &:hover {
+                        background:#ccc;
+                    }
+                }
+                .active {
+                    background:#ccc;
+                }
+            }
+            .buildings {
+                .building-tabs {
+                    margin-top:10px;
+                    ul {
+                        padding:0;
+                        .tab {
+                            display: inline-block;
+                            padding: 5px 8px;
+                            margin-right: -4px;
+                            border: 1px solid #ccc;
+                            background: #fff;
+                            cursor: pointer;
+                            &:hover {
+                                background: #ccc;
+                            }
+                            .remove {
+                                margin-right:4px;
+                            }
+                        }
+                        .active {
+                            background: #ccc;
+                        }
+                    }
+                    .building-details {
+                        margin-top:10px;
+                    }
+                    .plus {
+                        display: inline-block;
+                        padding: 5px 8px;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+    .dropdown-menu {
+        right: 15px;
+        text-align: right;
+    }
+}

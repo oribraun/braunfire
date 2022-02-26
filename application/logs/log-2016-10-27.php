@@ -1,0 +1,41 @@
+<?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed'); ?>
+
+ERROR - 2016-10-27 00:11:23 --> 404 Page Not Found --> images
+ERROR - 2016-10-27 00:33:59 --> surf current ip address - 46.19.85.252
+ERROR - 2016-10-27 00:34:00 --> 404 Page Not Found --> undefined
+ERROR - 2016-10-27 00:37:02 --> surf current ip address - 213.8.204.47
+ERROR - 2016-10-27 00:37:07 --> 404 Page Not Found --> undefined
+ERROR - 2016-10-27 00:37:25 --> surf current ip address - 213.8.204.47
+ERROR - 2016-10-27 01:15:12 --> surf current ip address - 46.19.86.97
+ERROR - 2016-10-27 01:19:37 --> surf current ip address - 78.29.251.58
+ERROR - 2016-10-27 01:19:38 --> 404 Page Not Found --> undefined
+ERROR - 2016-10-27 01:19:56 --> surf current ip address - 78.29.251.58
+ERROR - 2016-10-27 01:20:11 --> surf current ip address - 78.29.251.58
+ERROR - 2016-10-27 01:20:15 --> surf current ip address - 78.29.251.58
+ERROR - 2016-10-27 01:20:18 --> 404 Page Not Found --> undefined
+ERROR - 2016-10-27 01:42:09 --> 404 Page Not Found --> images
+ERROR - 2016-10-27 02:37:33 --> surf current ip address - 80.178.126.102
+ERROR - 2016-10-27 02:39:39 --> surf current ip address - 66.249.93.223
+ERROR - 2016-10-27 02:47:06 --> 404 Page Not Found --> images
+ERROR - 2016-10-27 03:24:46 --> 404 Page Not Found --> 
+ERROR - 2016-10-27 03:24:46 --> 404 Page Not Found --> th1s_1s_a_4o4.html
+ERROR - 2016-10-27 04:14:45 --> surf current ip address - 46.19.85.27
+ERROR - 2016-10-27 04:14:46 --> 404 Page Not Found --> undefined
+ERROR - 2016-10-27 05:15:26 --> 404 Page Not Found --> images
+ERROR - 2016-10-27 05:15:26 --> 404 Page Not Found --> images
+ERROR - 2016-10-27 05:52:45 --> surf current ip address - 85.64.171.144
+ERROR - 2016-10-27 09:17:54 --> surf current ip address - 37.26.149.228
+ERROR - 2016-10-27 09:17:56 --> 404 Page Not Found --> undefined
+ERROR - 2016-10-27 13:46:48 --> 404 Page Not Found --> robots.txt
+ERROR - 2016-10-27 13:47:05 --> 404 Page Not Found --> 
+ERROR - 2016-10-27 18:27:01 --> 404 Page Not Found --> wp-login.php
+ERROR - 2016-10-27 18:27:01 --> 404 Page Not Found --> administrator
+ERROR - 2016-10-27 18:27:02 --> 404 Page Not Found --> admin.php
+ERROR - 2016-10-27 21:22:47 --> surf current ip address - 213.57.62.119
+ERROR - 2016-10-27 21:22:48 --> 404 Page Not Found --> undefined
+ERROR - 2016-10-27 23:34:22 --> surf current ip address - 46.19.85.34
+ERROR - 2016-10-27 23:34:24 --> 404 Page Not Found --> undefined
+ERROR - 2016-10-27 23:34:51 --> surf current ip address - 46.19.85.34
+ERROR - 2016-10-27 23:34:52 --> 404 Page Not Found --> undefined
+ERROR - 2016-10-27 23:49:19 --> surf current ip address - 37.26.146.149
+ERROR - 2016-10-27 23:49:20 --> 404 Page Not Found --> undefined

@@ -1,0 +1,41 @@
+body {
+  width: 100%;
+}
+@media (min-width: 768px) {
+  body .login-form {
+    max-width: 300px;
+    margin-top: 20px;
+  }
+}
+body .login-form .alert-error {
+  color: #b94a48;
+  background-color: #f2dede;
+  border-color: #eed3d7;
+}
+body .login-form .alert {
+  padding: 8px 14px 8px 35px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+  background-color: #fcf8e3;
+  border: 1px solid #fbeed5;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+body .footer {
+  font-size: 16px;
+  padding: 10px 0;
+  margin-bottom: 25px;
+  text-align: center;
+}
+body .footer li {
+  display: inline;
+  list-style: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-right: 1px solid;
+}
+body .footer .no-border {
+  border: none;
+}

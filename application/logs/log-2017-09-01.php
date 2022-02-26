@@ -1,0 +1,145 @@
+<?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed'); ?>
+
+ERROR - 2017-09-01 01:05:39 --> 404 Page Not Found --> 
+ERROR - 2017-09-01 01:07:40 --> surf current ip address - 37.26.149.162
+ERROR - 2017-09-01 01:09:20 --> surf current ip address - 37.26.149.162
+ERROR - 2017-09-01 04:15:44 --> surf current ip address - 89.139.102.205
+ERROR - 2017-09-01 06:24:43 --> surf current ip address - 37.26.148.223
+ERROR - 2017-09-01 06:25:07 --> surf current ip address - 89.237.121.170
+ERROR - 2017-09-01 07:15:30 --> surf current ip address - 84.229.36.208
+ERROR - 2017-09-01 07:25:23 --> surf current ip address - 213.57.138.11
+ERROR - 2017-09-01 07:25:40 --> surf current ip address - 213.57.138.11
+ERROR - 2017-09-01 07:33:44 --> surf current ip address - 37.26.148.223
+ERROR - 2017-09-01 07:44:51 --> surf current ip address - 89.237.121.170
+ERROR - 2017-09-01 07:45:57 --> surf current ip address - 213.57.138.11
+ERROR - 2017-09-01 07:58:01 --> surf current ip address - 213.57.138.11
+ERROR - 2017-09-01 07:59:13 --> surf current ip address - 89.237.121.170
+ERROR - 2017-09-01 08:19:08 --> surf current ip address - 89.237.121.170
+ERROR - 2017-09-01 08:28:00 --> surf current ip address - 89.237.121.170
+ERROR - 2017-09-01 08:30:27 --> surf current ip address - 2.54.254.120
+ERROR - 2017-09-01 08:31:18 --> surf current ip address - 2.54.254.120
+ERROR - 2017-09-01 08:37:25 --> surf current ip address - 80.246.137.198
+ERROR - 2017-09-01 08:56:22 --> surf current ip address - 89.237.121.170
+ERROR - 2017-09-01 00:00:09 --> Severity: Notice  --> Only variable references should be returned by reference /home8/braunfir/public_html/web/braunfire/system/core/Common.php 257
+ERROR - 2017-09-01 00:00:09 --> Severity: Warning  --> session_start(): Cannot send session cookie - headers already sent by (output started at /home8/braunfir/public_html/web/braunfire/system/core/Exceptions.php:185) /home8/braunfir/public_html/web/braunfire/application/libraries/Session.php 33
+ERROR - 2017-09-01 00:00:09 --> Severity: Warning  --> session_start(): Cannot send session cache limiter - headers already sent (output started at /home8/braunfir/public_html/web/braunfire/system/core/Exceptions.php:185) /home8/braunfir/public_html/web/braunfire/application/libraries/Session.php 33
+ERROR - 2017-09-01 09:00:09 --> Severity: 8192  --> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /home8/braunfir/public_html/web/braunfire/system/database/drivers/mysql/mysql_driver.php 73
+ERROR - 2017-09-01 09:00:10 --> Severity: Warning  --> Cannot modify header information - headers already sent by (output started at /home8/braunfir/public_html/web/braunfire/system/core/Exceptions.php:185) /home8/braunfir/public_html/web/braunfire/system/core/Input.php 286
+ERROR - 2017-09-01 09:00:10 --> cron job
+ERROR - 2017-09-01 09:00:13 --> Severity: Warning  --> filemtime(): stat failed for my_db_backup_01-09-2017-09-00-10.sql /home8/braunfir/public_html/web/braunfire/system/libraries/Zip.php 91
+ERROR - 2017-09-01 09:00:14 --> Severity: Warning  --> fopen(db_backup/braunfire-db-backup-on-01-09-2017-09-00-10.zip): failed to open stream: No such file or directory /home8/braunfir/public_html/web/braunfire/system/helpers/file_helper.php 90
+ERROR - 2017-09-01 09:15:53 --> surf current ip address - 2.53.14.56
+ERROR - 2017-09-01 00:15:56 --> 404 Page Not Found --> offline.jpg
+ERROR - 2017-09-01 09:31:46 --> surf current ip address - 89.237.121.170
+ERROR - 2017-09-01 00:31:47 --> 404 Page Not Found --> offline.jpg
+ERROR - 2017-09-01 09:34:41 --> surf current ip address - 89.237.121.170
+ERROR - 2017-09-01 00:34:42 --> 404 Page Not Found --> offline.jpg
+ERROR - 2017-09-01 09:41:49 --> surf current ip address - 89.237.121.170
+ERROR - 2017-09-01 00:41:50 --> 404 Page Not Found --> offline.jpg
+ERROR - 2017-09-01 10:08:47 --> surf current ip address - 2.53.160.102
+ERROR - 2017-09-01 01:08:49 --> 404 Page Not Found --> offline.jpg
+ERROR - 2017-09-01 01:08:49 --> 404 Page Not Found --> undefined
+ERROR - 2017-09-01 10:09:00 --> surf current ip address - 2.53.160.102
+ERROR - 2017-09-01 10:37:36 --> surf current ip address - 2.53.160.102
+ERROR - 2017-09-01 01:37:37 --> 404 Page Not Found --> undefined
+ERROR - 2017-09-01 01:37:38 --> 404 Page Not Found --> offline.jpg
+ERROR - 2017-09-01 10:37:54 --> surf current ip address - 2.53.160.102
+ERROR - 2017-09-01 10:38:18 --> surf current ip address - 2.53.160.102
+ERROR - 2017-09-01 10:52:59 --> surf current ip address - 84.229.36.208
+ERROR - 2017-09-01 01:53:00 --> 404 Page Not Found --> offline.jpg
+ERROR - 2017-09-01 10:55:10 --> surf current ip address - 141.226.121.49
+ERROR - 2017-09-01 01:55:12 --> 404 Page Not Found --> offline.jpg
+ERROR - 2017-09-01 01:56:13 --> 404 Page Not Found --> apple-touch-icon-120x120-precomposed.png
+ERROR - 2017-09-01 01:56:14 --> 404 Page Not Found --> apple-touch-icon-120x120.png
+ERROR - 2017-09-01 01:56:14 --> 404 Page Not Found --> apple-touch-icon-precomposed.png
+ERROR - 2017-09-01 01:56:14 --> 404 Page Not Found --> apple-touch-icon.png
+ERROR - 2017-09-01 11:39:30 --> surf current ip address - 2.53.14.56
+ERROR - 2017-09-01 02:39:33 --> 404 Page Not Found --> offline.jpg
+ERROR - 2017-09-01 11:59:43 --> surf current ip address - 89.237.121.170
+ERROR - 2017-09-01 02:59:44 --> 404 Page Not Found --> offline.jpg
+ERROR - 2017-09-01 12:17:11 --> 404 Page Not Found --> 
+ERROR - 2017-09-01 03:17:11 --> 404 Page Not Found --> th1s_1s_a_4o4.html
+ERROR - 2017-09-01 12:22:41 --> surf current ip address - 77.138.197.104
+ERROR - 2017-09-01 12:22:41 --> surf current ip address - 77.138.197.104
+ERROR - 2017-09-01 03:22:44 --> 404 Page Not Found --> offline.jpg
+ERROR - 2017-09-01 03:22:45 --> 404 Page Not Found --> offline.jpg
+ERROR - 2017-09-01 12:24:02 --> surf current ip address - 77.138.197.104
+ERROR - 2017-09-01 03:24:05 --> 404 Page Not Found --> offline.jpg
+ERROR - 2017-09-01 12:24:35 --> surf current ip address - 2.53.10.130
+ERROR - 2017-09-01 03:24:36 --> 404 Page Not Found --> undefined
+ERROR - 2017-09-01 03:24:36 --> 404 Page Not Found --> offline.jpg
+ERROR - 2017-09-01 12:37:23 --> surf current ip address - 89.237.121.170
+ERROR - 2017-09-01 03:37:24 --> 404 Page Not Found --> offline.jpg
+ERROR - 2017-09-01 12:40:51 --> surf current ip address - 89.237.121.170
+ERROR - 2017-09-01 03:40:52 --> 404 Page Not Found --> offline.jpg
+ERROR - 2017-09-01 12:41:15 --> surf current ip address - 213.57.138.11
+ERROR - 2017-09-01 03:41:18 --> 404 Page Not Found --> offline.jpg
+ERROR - 2017-09-01 12:45:14 --> surf current ip address - 93.172.28.50
+ERROR - 2017-09-01 03:45:18 --> 404 Page Not Found --> offline.jpg
+ERROR - 2017-09-01 12:45:30 --> surf current ip address - 93.172.28.50
+ERROR - 2017-09-01 03:45:31 --> 404 Page Not Found --> offline.jpg
+ERROR - 2017-09-01 12:46:05 --> surf current ip address - 93.172.28.50
+ERROR - 2017-09-01 12:46:40 --> surf current ip address - 84.229.36.208
+ERROR - 2017-09-01 03:46:42 --> 404 Page Not Found --> offline.jpg
+ERROR - 2017-09-01 12:48:05 --> surf current ip address - 2.53.23.152
+ERROR - 2017-09-01 03:48:06 --> 404 Page Not Found --> undefined
+ERROR - 2017-09-01 03:48:06 --> 404 Page Not Found --> offline.jpg
+ERROR - 2017-09-01 12:48:23 --> surf current ip address - 2.53.23.152
+ERROR - 2017-09-01 13:24:28 --> surf current ip address - 89.237.121.170
+ERROR - 2017-09-01 04:24:29 --> 404 Page Not Found --> offline.jpg
+ERROR - 2017-09-01 04:47:05 --> 404 Page Not Found --> undefined
+ERROR - 2017-09-01 13:59:24 --> surf current ip address - 37.26.149.226
+ERROR - 2017-09-01 04:59:27 --> 404 Page Not Found --> offline.jpg
+ERROR - 2017-09-01 14:03:37 --> surf current ip address - 77.139.101.159
+ERROR - 2017-09-01 05:03:48 --> 404 Page Not Found --> offline.jpg
+ERROR - 2017-09-01 05:03:49 --> 404 Page Not Found --> undefined
+ERROR - 2017-09-01 14:13:31 --> surf current ip address - 89.237.121.170
+ERROR - 2017-09-01 05:13:35 --> 404 Page Not Found --> offline.jpg
+ERROR - 2017-09-01 15:12:23 --> surf current ip address - 2.53.10.130
+ERROR - 2017-09-01 06:12:24 --> 404 Page Not Found --> undefined
+ERROR - 2017-09-01 06:12:24 --> 404 Page Not Found --> offline.jpg
+ERROR - 2017-09-01 15:25:01 --> surf current ip address - 77.139.101.159
+ERROR - 2017-09-01 06:25:02 --> 404 Page Not Found --> undefined
+ERROR - 2017-09-01 06:25:03 --> 404 Page Not Found --> offline.jpg
+ERROR - 2017-09-01 15:31:06 --> 404 Page Not Found --> 
+ERROR - 2017-09-01 15:33:11 --> surf current ip address - 85.64.135.228
+ERROR - 2017-09-01 06:33:12 --> 404 Page Not Found --> undefined
+ERROR - 2017-09-01 06:33:13 --> 404 Page Not Found --> offline.jpg
+ERROR - 2017-09-01 15:33:50 --> surf current ip address - 85.64.135.228
+ERROR - 2017-09-01 15:36:04 --> surf current ip address - 85.64.135.228
+ERROR - 2017-09-01 06:36:05 --> 404 Page Not Found --> undefined
+ERROR - 2017-09-01 06:36:05 --> 404 Page Not Found --> offline.jpg
+ERROR - 2017-09-01 16:46:10 --> surf current ip address - 2.53.10.130
+ERROR - 2017-09-01 07:46:14 --> 404 Page Not Found --> undefined
+ERROR - 2017-09-01 07:46:14 --> 404 Page Not Found --> offline.jpg
+ERROR - 2017-09-01 16:46:26 --> surf current ip address - 2.53.10.130
+ERROR - 2017-09-01 07:46:27 --> 404 Page Not Found --> offline.jpg
+ERROR - 2017-09-01 16:46:39 --> surf current ip address - 2.53.10.130
+ERROR - 2017-09-01 17:28:02 --> surf current ip address - 2.54.254.120
+ERROR - 2017-09-01 08:28:04 --> 404 Page Not Found --> undefined
+ERROR - 2017-09-01 08:28:05 --> 404 Page Not Found --> offline.jpg
+ERROR - 2017-09-01 17:29:23 --> surf current ip address - 2.54.254.120
+ERROR - 2017-09-01 17:29:39 --> surf current ip address - 2.54.254.120
+ERROR - 2017-09-01 17:29:48 --> surf current ip address - 2.54.254.120
+ERROR - 2017-09-01 17:30:01 --> surf current ip address - 2.54.254.120
+ERROR - 2017-09-01 08:36:50 --> 404 Page Not Found --> undefined
+ERROR - 2017-09-01 18:16:20 --> surf current ip address - 89.237.121.170
+ERROR - 2017-09-01 09:16:21 --> 404 Page Not Found --> offline.jpg
+ERROR - 2017-09-01 20:47:17 --> 404 Page Not Found --> 
+ERROR - 2017-09-01 19:16:06 --> 404 Page Not Found --> undefined
+ERROR - 2017-09-01 19:16:07 --> 404 Page Not Found --> offline.jpg
+ERROR - 2017-09-01 19:59:21 --> 404 Page Not Found --> undefined
+ERROR - 2017-09-01 19:59:22 --> 404 Page Not Found --> offline.jpg
+ERROR - 2017-09-01 20:02:11 --> 404 Page Not Found --> offline.jpg
+ERROR - 2017-09-01 22:09:50 --> 404 Page Not Found --> offline.jpg
+ERROR - 2017-09-01 22:15:39 --> 404 Page Not Found --> offline.jpg
+ERROR - 2017-09-01 22:51:37 --> 404 Page Not Found --> offline.jpg
+ERROR - 2017-09-01 22:51:41 --> 404 Page Not Found --> apple-touch-icon-120x120-precomposed.png
+ERROR - 2017-09-01 22:51:41 --> 404 Page Not Found --> apple-touch-icon-120x120.png
+ERROR - 2017-09-01 22:51:42 --> 404 Page Not Found --> apple-touch-icon.png
+ERROR - 2017-09-01 22:51:42 --> 404 Page Not Found --> apple-touch-icon.png
+ERROR - 2017-09-01 23:05:08 --> 404 Page Not Found --> offline.jpg
+ERROR - 2017-09-01 23:14:50 --> 404 Page Not Found --> offline.jpg
+ERROR - 2017-09-01 23:15:18 --> 404 Page Not Found --> offline.jpg
+ERROR - 2017-09-01 23:16:12 --> 404 Page Not Found --> offline.jpg
+ERROR - 2017-09-01 23:16:20 --> 404 Page Not Found --> offline.jpg

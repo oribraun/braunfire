@@ -1,0 +1,52 @@
+@import url(generl.less);
+@import url(animations.less);
+
+body{
+	width:100%;
+    .container-fluid {
+        position:relative;
+    }
+    #alert-container {
+        position: absolute;
+        top: 50px;
+        left:0;
+        right:0;
+        .alert-error {
+            color: #b94a48;
+            background-color: #f2dede;
+            border-color: #eed3d7;
+        }
+        .alert {
+            .transition(all .3s ease-in);
+            overflow: hidden;
+            height:0;
+            padding: 0px 14px 0px 35px;
+            margin-bottom: 0;
+            text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+            background-color: #fcf8e3;
+            border: 1px solid #fbeed5;
+            -webkit-border-radius: 4px;
+            -moz-border-radius: 4px;
+            border-radius: 4px;
+        }
+
+        .alert-open {
+            height:38px;
+            padding: 8px 14px 8px 35px;
+//            .animation(pullUp 1s linear);
+        }
+    }
+    .transition {
+        .transition(all .3s ease-in);
+        overflow: hidden;
+    }
+	.slide_down_close{
+		max-height:0;
+	}
+	.slide_down_open{
+		@media(min-width:1178px){
+			max-height: 147px;
+		}
+		max-height: 222px;
+	}
+}

@@ -1,0 +1,13 @@
+<?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed'); ?>
+
+ERROR - 2018-12-17 04:21:16 --> 404 Page Not Found --> 
+ERROR - 2018-12-17 06:47:32 --> 404 Page Not Found --> 
+ERROR - 2018-12-17 01:00:02 --> Severity: Notice  --> Only variable references should be returned by reference /home8/braunfir/public_html/web/braunfire/system/core/Common.php 257
+ERROR - 2018-12-17 01:00:02 --> Severity: Warning  --> session_start(): Cannot send session cookie - headers already sent by (output started at /home8/braunfir/public_html/web/braunfire/system/core/Exceptions.php:185) /home8/braunfir/public_html/web/braunfire/application/libraries/Session.php 33
+ERROR - 2018-12-17 01:00:02 --> Severity: Warning  --> session_start(): Cannot send session cache limiter - headers already sent (output started at /home8/braunfir/public_html/web/braunfire/system/core/Exceptions.php:185) /home8/braunfir/public_html/web/braunfire/application/libraries/Session.php 33
+ERROR - 2018-12-17 00:01:57 --> 404 Page Not Found --> images
+ERROR - 2018-12-17 12:18:30 --> 404 Page Not Found --> 
+ERROR - 2018-12-17 03:18:31 --> 404 Page Not Found --> th1s_1s_a_4o4.html
+ERROR - 2018-12-17 05:34:41 --> 404 Page Not Found --> images
+ERROR - 2018-12-17 06:58:17 --> 404 Page Not Found --> images
+ERROR - 2018-12-17 23:14:40 --> 404 Page Not Found --> images

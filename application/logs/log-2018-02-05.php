@@ -1,0 +1,153 @@
+<?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed'); ?>
+
+ERROR - 2018-02-05 02:04:48 --> 404 Page Not Found --> 
+ERROR - 2018-02-05 03:10:14 --> 404 Page Not Found --> 
+ERROR - 2018-02-05 00:00:02 --> Severity: Notice  --> Only variable references should be returned by reference /home8/braunfir/public_html/web/braunfire/system/core/Common.php 257
+ERROR - 2018-02-05 00:00:02 --> Severity: Warning  --> session_start(): Cannot send session cookie - headers already sent by (output started at /home8/braunfir/public_html/web/braunfire/system/core/Exceptions.php:185) /home8/braunfir/public_html/web/braunfire/application/libraries/Session.php 33
+ERROR - 2018-02-05 00:00:02 --> Severity: Warning  --> session_start(): Cannot send session cache limiter - headers already sent (output started at /home8/braunfir/public_html/web/braunfire/system/core/Exceptions.php:185) /home8/braunfir/public_html/web/braunfire/application/libraries/Session.php 33
+ERROR - 2018-02-05 09:00:02 --> Severity: 8192  --> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /home8/braunfir/public_html/web/braunfire/system/database/drivers/mysql/mysql_driver.php 73
+ERROR - 2018-02-05 09:00:02 --> Severity: Warning  --> Cannot modify header information - headers already sent by (output started at /home8/braunfir/public_html/web/braunfire/system/core/Exceptions.php:185) /home8/braunfir/public_html/web/braunfire/system/core/Input.php 286
+ERROR - 2018-02-05 09:00:02 --> cron job
+ERROR - 2018-02-05 09:00:04 --> Severity: Warning  --> filemtime(): stat failed for my_db_backup_05-02-2018-09-00-02.sql /home8/braunfir/public_html/web/braunfire/system/libraries/Zip.php 91
+ERROR - 2018-02-05 09:00:04 --> Severity: Warning  --> fopen(db_backup/braunfire-db-backup-on-05-02-2018-09-00-02.zip): failed to open stream: No such file or directory /home8/braunfir/public_html/web/braunfire/system/helpers/file_helper.php 90
+ERROR - 2018-02-05 00:11:15 --> 404 Page Not Found --> images
+ERROR - 2018-02-05 00:59:08 --> 404 Page Not Found --> images
+ERROR - 2018-02-05 01:20:21 --> 404 Page Not Found --> images
+ERROR - 2018-02-05 01:36:22 --> 404 Page Not Found --> images
+ERROR - 2018-02-05 10:51:45 --> surf current ip address - 80.178.126.102
+ERROR - 2018-02-05 01:51:49 --> 404 Page Not Found --> offline.jpg
+ERROR - 2018-02-05 10:57:46 --> surf current ip address - 80.178.126.102
+ERROR - 2018-02-05 11:03:32 --> surf current ip address - 80.178.126.102
+ERROR - 2018-02-05 11:18:19 --> surf current ip address - 80.178.126.102
+ERROR - 2018-02-05 02:18:24 --> 404 Page Not Found --> offline.jpg
+ERROR - 2018-02-05 02:27:40 --> 404 Page Not Found --> images
+ERROR - 2018-02-05 11:28:01 --> surf current ip address - 80.178.126.102
+ERROR - 2018-02-05 02:28:06 --> 404 Page Not Found --> offline.jpg
+ERROR - 2018-02-05 11:28:52 --> surf current ip address - 80.178.126.102
+ERROR - 2018-02-05 02:28:57 --> 404 Page Not Found --> offline.jpg
+ERROR - 2018-02-05 11:29:35 --> surf current ip address - 80.178.126.102
+ERROR - 2018-02-05 02:29:39 --> 404 Page Not Found --> offline.jpg
+ERROR - 2018-02-05 11:29:54 --> surf current ip address - 80.178.126.102
+ERROR - 2018-02-05 02:29:58 --> 404 Page Not Found --> offline.jpg
+ERROR - 2018-02-05 02:31:54 --> 404 Page Not Found --> images
+ERROR - 2018-02-05 11:42:12 --> surf current ip address - 80.178.126.102
+ERROR - 2018-02-05 02:42:16 --> 404 Page Not Found --> offline.jpg
+ERROR - 2018-02-05 11:42:52 --> surf current ip address - 80.178.126.102
+ERROR - 2018-02-05 02:42:56 --> 404 Page Not Found --> offline.jpg
+ERROR - 2018-02-05 11:43:05 --> surf current ip address - 80.178.126.102
+ERROR - 2018-02-05 11:43:14 --> surf current ip address - 80.178.126.102
+ERROR - 2018-02-05 02:43:16 --> 404 Page Not Found --> offline.jpg
+ERROR - 2018-02-05 11:44:46 --> surf current ip address - 80.178.126.102
+ERROR - 2018-02-05 11:49:33 --> surf current ip address - 80.178.126.102
+ERROR - 2018-02-05 11:49:40 --> surf current ip address - 80.178.126.102
+ERROR - 2018-02-05 02:49:43 --> 404 Page Not Found --> offline.jpg
+ERROR - 2018-02-05 11:51:13 --> surf current ip address - 80.178.126.102
+ERROR - 2018-02-05 11:51:57 --> surf current ip address - 80.178.126.102
+ERROR - 2018-02-05 11:52:00 --> surf current ip address - 80.178.126.102
+ERROR - 2018-02-05 02:52:01 --> 404 Page Not Found --> offline.jpg
+ERROR - 2018-02-05 11:53:30 --> surf current ip address - 80.178.126.102
+ERROR - 2018-02-05 11:53:31 --> surf current ip address - 80.178.126.102
+ERROR - 2018-02-05 03:01:21 --> 404 Page Not Found --> offline.jpg
+ERROR - 2018-02-05 03:01:31 --> 404 Page Not Found --> offline.jpg
+ERROR - 2018-02-05 03:01:45 --> 404 Page Not Found --> offline.jpg
+ERROR - 2018-02-05 03:02:45 --> 404 Page Not Found --> images
+ERROR - 2018-02-05 12:06:59 --> surf current ip address - 80.178.126.102
+ERROR - 2018-02-05 12:07:01 --> surf current ip address - 80.178.126.102
+ERROR - 2018-02-05 03:07:07 --> 404 Page Not Found --> offline.jpg
+ERROR - 2018-02-05 12:08:35 --> surf current ip address - 80.178.126.102
+ERROR - 2018-02-05 12:08:36 --> surf current ip address - 80.178.126.102
+ERROR - 2018-02-05 12:17:24 --> surf current ip address - 80.178.126.102
+ERROR - 2018-02-05 12:17:26 --> surf current ip address - 80.178.126.102
+ERROR - 2018-02-05 03:17:28 --> 404 Page Not Found --> offline.jpg
+ERROR - 2018-02-05 12:18:57 --> surf current ip address - 80.178.126.102
+ERROR - 2018-02-05 12:18:59 --> surf current ip address - 80.178.126.102
+ERROR - 2018-02-05 12:19:39 --> surf current ip address - 80.178.126.102
+ERROR - 2018-02-05 12:19:41 --> surf current ip address - 80.178.126.102
+ERROR - 2018-02-05 03:19:43 --> 404 Page Not Found --> offline.jpg
+ERROR - 2018-02-05 12:20:23 --> 404 Page Not Found --> 
+ERROR - 2018-02-05 03:20:23 --> 404 Page Not Found --> th1s_1s_a_4o4.html
+ERROR - 2018-02-05 12:21:11 --> surf current ip address - 80.178.126.102
+ERROR - 2018-02-05 12:21:13 --> surf current ip address - 80.178.126.102
+ERROR - 2018-02-05 12:21:14 --> surf current ip address - 80.178.126.102
+ERROR - 2018-02-05 12:21:16 --> surf current ip address - 80.178.126.102
+ERROR - 2018-02-05 12:21:20 --> surf current ip address - 80.178.126.102
+ERROR - 2018-02-05 03:21:21 --> 404 Page Not Found --> offline.jpg
+ERROR - 2018-02-05 12:22:51 --> surf current ip address - 80.178.126.102
+ERROR - 2018-02-05 12:22:52 --> surf current ip address - 80.178.126.102
+ERROR - 2018-02-05 03:43:41 --> 404 Page Not Found --> images
+ERROR - 2018-02-05 03:59:20 --> 404 Page Not Found --> robots.txt
+ERROR - 2018-02-05 12:59:21 --> surf current ip address - 66.249.64.90
+ERROR - 2018-02-05 12:59:48 --> surf current ip address - 80.178.126.102
+ERROR - 2018-02-05 12:59:50 --> surf current ip address - 80.178.126.102
+ERROR - 2018-02-05 03:59:52 --> 404 Page Not Found --> offline.jpg
+ERROR - 2018-02-05 13:01:22 --> surf current ip address - 80.178.126.102
+ERROR - 2018-02-05 13:01:29 --> surf current ip address - 80.178.126.102
+ERROR - 2018-02-05 13:01:31 --> surf current ip address - 80.178.126.102
+ERROR - 2018-02-05 04:01:33 --> 404 Page Not Found --> offline.jpg
+ERROR - 2018-02-05 13:03:08 --> surf current ip address - 80.178.126.102
+ERROR - 2018-02-05 13:07:08 --> surf current ip address - 80.178.126.102
+ERROR - 2018-02-05 13:07:10 --> surf current ip address - 80.178.126.102
+ERROR - 2018-02-05 04:07:12 --> 404 Page Not Found --> offline.jpg
+ERROR - 2018-02-05 13:08:42 --> surf current ip address - 80.178.126.102
+ERROR - 2018-02-05 13:08:44 --> surf current ip address - 80.178.126.102
+ERROR - 2018-02-05 13:08:45 --> surf current ip address - 80.178.126.102
+ERROR - 2018-02-05 13:08:53 --> surf current ip address - 80.178.126.102
+ERROR - 2018-02-05 13:20:24 --> surf current ip address - 80.178.126.102
+ERROR - 2018-02-05 13:20:27 --> surf current ip address - 80.178.126.102
+ERROR - 2018-02-05 04:20:29 --> 404 Page Not Found --> offline.jpg
+ERROR - 2018-02-05 13:21:58 --> surf current ip address - 80.178.126.102
+ERROR - 2018-02-05 13:22:00 --> surf current ip address - 80.178.126.102
+ERROR - 2018-02-05 13:27:12 --> surf current ip address - 80.178.126.102
+ERROR - 2018-02-05 13:27:14 --> surf current ip address - 80.178.126.102
+ERROR - 2018-02-05 04:27:20 --> 404 Page Not Found --> offline.jpg
+ERROR - 2018-02-05 13:28:48 --> surf current ip address - 80.178.126.102
+ERROR - 2018-02-05 13:28:49 --> surf current ip address - 80.178.126.102
+ERROR - 2018-02-05 13:28:51 --> surf current ip address - 80.178.126.102
+ERROR - 2018-02-05 13:30:11 --> surf current ip address - 80.178.126.102
+ERROR - 2018-02-05 13:30:13 --> surf current ip address - 80.178.126.102
+ERROR - 2018-02-05 04:30:16 --> 404 Page Not Found --> offline.jpg
+ERROR - 2018-02-05 13:31:45 --> surf current ip address - 80.178.126.102
+ERROR - 2018-02-05 13:31:46 --> surf current ip address - 80.178.126.102
+ERROR - 2018-02-05 13:31:47 --> surf current ip address - 80.178.126.102
+ERROR - 2018-02-05 13:31:48 --> surf current ip address - 80.178.126.102
+ERROR - 2018-02-05 13:32:33 --> surf current ip address - 80.178.126.102
+ERROR - 2018-02-05 13:32:35 --> surf current ip address - 80.178.126.102
+ERROR - 2018-02-05 04:32:38 --> 404 Page Not Found --> offline.jpg
+ERROR - 2018-02-05 13:34:07 --> surf current ip address - 80.178.126.102
+ERROR - 2018-02-05 13:34:08 --> surf current ip address - 80.178.126.102
+ERROR - 2018-02-05 13:34:10 --> surf current ip address - 80.178.126.102
+ERROR - 2018-02-05 13:34:11 --> surf current ip address - 80.178.126.102
+ERROR - 2018-02-05 13:35:39 --> surf current ip address - 80.178.126.102
+ERROR - 2018-02-05 13:35:41 --> surf current ip address - 80.178.126.102
+ERROR - 2018-02-05 04:35:54 --> 404 Page Not Found --> offline.jpg
+ERROR - 2018-02-05 13:37:12 --> surf current ip address - 80.178.126.102
+ERROR - 2018-02-05 13:37:22 --> surf current ip address - 80.178.126.102
+ERROR - 2018-02-05 13:37:40 --> surf current ip address - 80.178.126.102
+ERROR - 2018-02-05 13:42:46 --> surf current ip address - 80.178.126.102
+ERROR - 2018-02-05 13:42:53 --> surf current ip address - 80.178.126.102
+ERROR - 2018-02-05 04:42:55 --> 404 Page Not Found --> offline.jpg
+ERROR - 2018-02-05 13:44:25 --> surf current ip address - 80.178.126.102
+ERROR - 2018-02-05 13:44:26 --> surf current ip address - 80.178.126.102
+ERROR - 2018-02-05 13:44:27 --> surf current ip address - 80.178.126.102
+ERROR - 2018-02-05 04:47:26 --> 404 Page Not Found --> images
+ERROR - 2018-02-05 13:47:31 --> surf current ip address - 80.178.126.102
+ERROR - 2018-02-05 13:47:34 --> surf current ip address - 80.178.126.102
+ERROR - 2018-02-05 04:47:36 --> 404 Page Not Found --> offline.jpg
+ERROR - 2018-02-05 13:49:05 --> surf current ip address - 80.178.126.102
+ERROR - 2018-02-05 13:49:06 --> surf current ip address - 80.178.126.102
+ERROR - 2018-02-05 13:49:07 --> surf current ip address - 80.178.126.102
+ERROR - 2018-02-05 13:49:08 --> surf current ip address - 80.178.126.102
+ERROR - 2018-02-05 13:49:09 --> surf current ip address - 80.178.126.102
+ERROR - 2018-02-05 13:56:08 --> surf current ip address - 80.178.126.102
+ERROR - 2018-02-05 13:56:38 --> surf current ip address - 80.178.126.102
+ERROR - 2018-02-05 13:58:34 --> surf current ip address - 80.178.126.102
+ERROR - 2018-02-05 13:58:55 --> surf current ip address - 80.178.126.102
+ERROR - 2018-02-05 13:59:55 --> surf current ip address - 80.178.126.102
+ERROR - 2018-02-05 14:00:02 --> surf current ip address - 80.178.126.102
+ERROR - 2018-02-05 14:00:42 --> surf current ip address - 80.178.126.102
+ERROR - 2018-02-05 20:09:24 --> surf current ip address - 72.67.2.185
+ERROR - 2018-02-05 20:09:27 --> surf current ip address - 72.67.2.185
+ERROR - 2018-02-05 20:10:49 --> 404 Page Not Found --> 
+ERROR - 2018-02-05 22:52:20 --> 404 Page Not Found --> 
+ERROR - 2018-02-05 13:58:15 --> 404 Page Not Found --> images
+ERROR - 2018-02-05 16:24:11 --> 404 Page Not Found --> replace.php

@@ -1,0 +1,95 @@
+<?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed'); ?>
+
+ERROR - 2016-11-02 00:16:22 --> 404 Page Not Found --> images
+ERROR - 2016-11-02 00:23:27 --> 404 Page Not Found --> images
+ERROR - 2016-11-02 00:23:27 --> 404 Page Not Found --> images
+ERROR - 2016-11-02 00:23:43 --> 404 Page Not Found --> images
+ERROR - 2016-11-02 00:34:55 --> surf current ip address - 46.19.85.20
+ERROR - 2016-11-02 00:34:58 --> 404 Page Not Found --> undefined
+ERROR - 2016-11-02 00:35:36 --> surf current ip address - 46.19.85.20
+ERROR - 2016-11-02 00:35:41 --> surf current ip address - 46.19.85.20
+ERROR - 2016-11-02 00:35:43 --> 404 Page Not Found --> undefined
+ERROR - 2016-11-02 00:46:14 --> surf current ip address - 80.246.130.54
+ERROR - 2016-11-02 01:12:29 --> surf current ip address - 46.19.85.181
+ERROR - 2016-11-02 01:12:29 --> 404 Page Not Found --> undefined
+ERROR - 2016-11-02 01:15:00 --> backup by - צבי בראון - 35
+ERROR - 2016-11-02 01:15:01 --> Severity: Warning  --> filemtime(): stat failed for my_db_backup_02-11-2016-01-15-00.sql /home8/braunfir/public_html/web/braunfire/system/libraries/Zip.php 91
+ERROR - 2016-11-02 01:18:48 --> surf current ip address - 46.19.85.181
+ERROR - 2016-11-02 01:18:48 --> 404 Page Not Found --> images
+ERROR - 2016-11-02 01:18:49 --> 404 Page Not Found --> undefined
+ERROR - 2016-11-02 01:19:00 --> surf current ip address - 46.19.85.181
+ERROR - 2016-11-02 01:19:01 --> 404 Page Not Found --> undefined
+ERROR - 2016-11-02 01:40:03 --> surf current ip address - 2.53.3.61
+ERROR - 2016-11-02 01:40:06 --> 404 Page Not Found --> undefined
+ERROR - 2016-11-02 01:43:34 --> surf current ip address - 46.19.85.20
+ERROR - 2016-11-02 01:43:37 --> 404 Page Not Found --> undefined
+ERROR - 2016-11-02 01:47:52 --> surf current ip address - 2.53.3.61
+ERROR - 2016-11-02 01:47:54 --> 404 Page Not Found --> undefined
+ERROR - 2016-11-02 01:48:13 --> surf current ip address - 2.53.3.61
+ERROR - 2016-11-02 01:48:32 --> surf current ip address - 2.53.3.61
+ERROR - 2016-11-02 01:48:34 --> 404 Page Not Found --> undefined
+ERROR - 2016-11-02 01:48:50 --> surf current ip address - 2.53.3.61
+ERROR - 2016-11-02 01:49:04 --> surf current ip address - 2.53.3.61
+ERROR - 2016-11-02 02:30:07 --> surf current ip address - 37.26.146.248
+ERROR - 2016-11-02 02:30:08 --> 404 Page Not Found --> undefined
+ERROR - 2016-11-02 02:30:36 --> surf current ip address - 37.26.146.248
+ERROR - 2016-11-02 02:31:00 --> surf current ip address - 37.26.146.248
+ERROR - 2016-11-02 02:42:45 --> surf current ip address - 2.55.168.221
+ERROR - 2016-11-02 02:42:47 --> 404 Page Not Found --> undefined
+ERROR - 2016-11-02 03:11:36 --> surf current ip address - 5.102.236.239
+ERROR - 2016-11-02 03:45:51 --> surf current ip address - 62.219.92.106
+ERROR - 2016-11-02 03:45:53 --> 404 Page Not Found --> undefined
+ERROR - 2016-11-02 03:57:12 --> 404 Page Not Found --> 
+ERROR - 2016-11-02 03:57:12 --> 404 Page Not Found --> th1s_1s_a_4o4.html
+ERROR - 2016-11-02 04:07:34 --> surf current ip address - 2.53.3.61
+ERROR - 2016-11-02 04:07:36 --> 404 Page Not Found --> undefined
+ERROR - 2016-11-02 04:08:06 --> surf current ip address - 2.53.3.61
+ERROR - 2016-11-02 04:08:58 --> surf current ip address - 2.53.3.61
+ERROR - 2016-11-02 04:22:25 --> surf current ip address - 2.55.168.221
+ERROR - 2016-11-02 04:56:02 --> 404 Page Not Found --> 
+ERROR - 2016-11-02 04:56:08 --> 404 Page Not Found --> robots.txt
+ERROR - 2016-11-02 05:03:40 --> 404 Page Not Found --> robots.txt
+ERROR - 2016-11-02 05:03:59 --> 404 Page Not Found --> 
+ERROR - 2016-11-02 05:15:31 --> surf current ip address - 2.53.48.98
+ERROR - 2016-11-02 05:17:52 --> surf current ip address - 2.53.3.61
+ERROR - 2016-11-02 05:17:54 --> 404 Page Not Found --> undefined
+ERROR - 2016-11-02 05:18:18 --> surf current ip address - 2.53.3.61
+ERROR - 2016-11-02 05:18:55 --> surf current ip address - 2.53.3.61
+ERROR - 2016-11-02 05:25:58 --> surf current ip address - 2.53.3.61
+ERROR - 2016-11-02 05:41:57 --> surf current ip address - 66.249.93.223
+ERROR - 2016-11-02 07:53:45 --> surf current ip address - 5.102.236.239
+ERROR - 2016-11-02 13:24:13 --> surf current ip address - 37.26.146.128
+ERROR - 2016-11-02 13:24:15 --> 404 Page Not Found --> undefined
+ERROR - 2016-11-02 15:01:04 --> 404 Page Not Found --> 
+ERROR - 2016-11-02 20:27:31 --> surf current ip address - 2.53.60.109
+ERROR - 2016-11-02 20:27:56 --> surf current ip address - 2.53.60.109
+ERROR - 2016-11-02 20:27:58 --> 404 Page Not Found --> undefined
+ERROR - 2016-11-02 20:28:32 --> surf current ip address - 2.53.60.109
+ERROR - 2016-11-02 20:28:33 --> 404 Page Not Found --> undefined
+ERROR - 2016-11-02 20:28:48 --> surf current ip address - 2.53.60.109
+ERROR - 2016-11-02 20:28:49 --> 404 Page Not Found --> undefined
+ERROR - 2016-11-02 20:29:02 --> surf current ip address - 2.53.60.109
+ERROR - 2016-11-02 20:29:03 --> 404 Page Not Found --> undefined
+ERROR - 2016-11-02 20:29:25 --> surf current ip address - 2.53.60.109
+ERROR - 2016-11-02 20:29:28 --> 404 Page Not Found --> undefined
+ERROR - 2016-11-02 21:15:30 --> 404 Page Not Found --> 
+ERROR - 2016-11-02 21:18:05 --> surf current ip address - 46.116.66.123
+ERROR - 2016-11-02 21:18:06 --> 404 Page Not Found --> undefined
+ERROR - 2016-11-02 21:19:16 --> surf current ip address - 46.116.66.123
+ERROR - 2016-11-02 21:42:51 --> surf current ip address - 46.116.66.123
+ERROR - 2016-11-02 21:42:52 --> 404 Page Not Found --> undefined
+ERROR - 2016-11-02 21:44:52 --> surf current ip address - 46.116.66.123
+ERROR - 2016-11-02 21:45:24 --> surf current ip address - 46.116.66.123
+ERROR - 2016-11-02 21:46:24 --> surf current ip address - 46.116.66.123
+ERROR - 2016-11-02 22:15:43 --> surf current ip address - 2.53.171.211
+ERROR - 2016-11-02 22:15:45 --> 404 Page Not Found --> undefined
+ERROR - 2016-11-02 22:20:24 --> surf current ip address - 213.57.62.119
+ERROR - 2016-11-02 22:20:33 --> 404 Page Not Found --> undefined
+ERROR - 2016-11-02 22:34:36 --> surf current ip address - 2.55.178.154
+ERROR - 2016-11-02 22:34:37 --> 404 Page Not Found --> undefined
+ERROR - 2016-11-02 22:40:30 --> surf current ip address - 109.66.138.107
+ERROR - 2016-11-02 22:47:37 --> surf current ip address - 46.19.85.217
+ERROR - 2016-11-02 22:47:42 --> 404 Page Not Found --> undefined
+ERROR - 2016-11-02 23:41:15 --> surf current ip address - 84.108.78.52
+ERROR - 2016-11-02 23:41:17 --> 404 Page Not Found --> undefined
+ERROR - 2016-11-02 23:43:57 --> surf current ip address - 46.19.85.53
