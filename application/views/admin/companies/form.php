@@ -67,7 +67,7 @@
             <label for="" class="col-sm-2 control-label">מנהל פרוייקט</label>
             <div class="col-sm-6">
                 <select class="form-control" ng-model="entity.project_manager_id" ng-options="a.value as a.text for a in project_manager_options">
-                    <option value="" ng-show="!entity.project_manager_id">- בחר -</option>
+                    <option value="">- בחר -</option>
                 </select>
             </div>
         </div>
@@ -75,7 +75,7 @@
             <label for="" class="col-sm-2 control-label">מנהל חשבונות</label>
             <div class="col-sm-6">
                 <select class="form-control" ng-model="entity.account_manager_id" ng-options="a.value as a.text for a in account_manager_options">
-                    <option value="" ng-show="!entity.account_manager_id">- בחר -</option>
+                    <option value="">- בחר -</option>
                 </select>
             </div>
         </div>

@@ -23,6 +23,7 @@ class Panel extends Admin_Controller {
         $data['committee_approve_options'] = $this->project_model->get_committee_approve_options();
         $data['project_manager_options'] = $this->manager_model->get_options(8);
         $data['account_manager_options'] = $this->manager_model->get_options(5);
+        $data['foreman_manager_options'] = $this->manager_model->get_options(9);
         $data['manager_type_options'] = $this->manager_type_model->get_options();
         $data['building_type_options'] = $this->building_type_model->get_options();
         $data['building_status_options'] = $this->building_status_model->get_options();
@@ -47,6 +48,7 @@ class Panel extends Admin_Controller {
         $data['project_notes'] = $this->project_model->project_get_notes($project);
         $data['project_criticism'] = $this->project_model->project_get_criticism($project);
         $data['consultants'] = $this->consultant_model->get_all_project_consultant_fixed($project_id);
+        $data['foreman'] = $this->manager_model->get_all_for_project_foreman($project_id);
         $data['account_managers'] = $this->manager_model->get_all(["manager_type_id"=>5]);
         $data['project_performas'] = $this->project_performa_model->get_all(['project_id'=>$project_id]);
         $buildings = $this->building_model->get_all(["project_id"=>$project->getId()],(object)['column'=>'building_num','order'=>'asc']);
@@ -74,6 +76,7 @@ class Panel extends Admin_Controller {
         $data['project_notes'] = $this->project_model->project_get_notes($project);
         $data['project_criticism'] = $this->project_model->project_get_criticism($project);
         $data['consultants'] = $this->consultant_model->get_all_project_consultant_fixed($project->getId());
+        $data['foreman'] = $this->manager_model->get_all_for_project_foreman($project->getId());
         $data['account_managers'] = $this->manager_model->get_all(["manager_type_id"=>5]);
         $data['project_performas'] = $this->project_performa_model->get_all(['project_id'=>$project->getId()]);
         $buildings = $this->building_model->get_all(["project_id"=>$project->getId()],(object)['column'=>'building_num','order'=>'asc']);
@@ -209,6 +212,7 @@ class Panel extends Admin_Controller {
         $project_manager->setManagerTypeId(8);
         $buildings = $this->input->post("buildings");
         $consultants = $this->input->post("consultants");
+        $foreman = $this->input->post("foreman");
         $project_performas = $this->input->post("project_performas");
         $project_notes = $this->input->post("project_notes");
         $project_criticism = $this->input->post("project_criticism");
@@ -265,6 +269,22 @@ class Panel extends Admin_Controller {
                 }
             }
         }
+        if($foreman && is_array($foreman)) {
+            $foreman_array = [];
+            foreach($foreman as $i => $f) {
+                $f = (object)$f;
+                if(!$f->id) {
+                    $this->ajax->json_error('נא לבחור מנהל עבודה');
+                    unset($foreman[$i]);
+                    continue;
+                }
+                if(!in_array($f->id,$foreman_array)){
+                    $foreman_array [] = $f->id;
+                } else {
+                    $this->ajax->json_error('נא לבחור מנהלי עבודה שונים');
+                }
+            }
+        }
         if(!$project->getProjectSerial()) {
             $project->setProjectSerial($this->project_model->calc_project_serial(date("y")));
         }
@@ -288,6 +308,9 @@ class Panel extends Admin_Controller {
             }
             if($consultants && is_array($consultants)) {
                 $this->consultant_model->add_project_consultants($consultants,$project->getId());
+            }
+            if($foreman && is_array($foreman)) {
+                $this->manager_model->add_project_foreman($foreman,$project->getId());
             }
             if($project_performas && is_array($project_performas)) {
                 foreach($project_performas as $pp) {
@@ -336,6 +359,7 @@ class Panel extends Admin_Controller {
             "project_notes"=>$this->project_model->project_get_notes($project),
             "project_criticism"=>$this->project_model->project_get_criticism($project),
             "consultants"=>$this->consultant_model->get_all_project_consultant_fixed($project->getId()),
+            "foreman"=>$this->manager_model->get_all_for_project_foreman($project->getId()),
             "project_performas"=>$this->project_performa_model->get_all(['project_id'=>$project->getId()]),
         ]);
         var_dump($project);
@@ -352,7 +376,9 @@ class Panel extends Admin_Controller {
         if($model == 'account_manager'){
             $options = $this->manager_model->get_options(5);
         } else if($model == 'project_manager'){
-            $options = $this->manager_model->get_options(5);
+            $options = $this->manager_model->get_options(8);
+        } else if($model == 'foreman_manager'){
+            $options = $this->manager_model->get_options(9);
         } else {
             $options = $this->{$model."_model"}->get_options();
         }
@@ -394,6 +420,15 @@ class Panel extends Admin_Controller {
         $id = intval($this->input->post("id"));
         try {
             $this->consultant_model->delete_project_consultant($id);
+        } catch(Exception $e) {
+            $this->ajax->json_error($e->getMessage());
+        }
+        $this->ajax->json_response();
+    }
+    public function ajax_delete_project_foreman() {
+        $id = intval($this->input->post("id"));
+        try {
+            $this->manager_model->delete_project_foreman($id);
         } catch(Exception $e) {
             $this->ajax->json_error($e->getMessage());
         }

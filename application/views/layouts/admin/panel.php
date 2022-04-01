@@ -29,6 +29,7 @@
         var manager_type_options = <?= isset($manager_type_options) ? json_encode($manager_type_options) : json_encode('') ?>;
         var project_manager_options = <?= isset($project_manager_options) ? json_encode($project_manager_options) : json_encode('') ?>;
         var account_manager_options = <?= isset($account_manager_options) ? json_encode($account_manager_options) : json_encode('') ?>;
+        var foreman_manager_options = <?= isset($foreman_manager_options) ? json_encode($foreman_manager_options) : json_encode('') ?>;
         var water_specs_options = <?= isset($water_specs_options) ? json_encode($water_specs_options) : json_encode('') ?>;
         var committee_approve_options = <?= isset($committee_approve_options) ? json_encode($committee_approve_options) : json_encode('') ?>;
         var project_status_options = <?= isset($project_status_options) ? json_encode($project_status_options) : json_encode('') ?>;

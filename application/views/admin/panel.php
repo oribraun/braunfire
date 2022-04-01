@@ -39,6 +39,9 @@
             <div class="tab col-lg-1 col-sm-2 col-xs-6" ng-click="setOpenTab('consultants')" ng-class="{'active':openTab == 'consultants'}">
                 <span class="text">יועצים</span>
             </div>
+            <div class="tab col-lg-1 col-sm-2 col-xs-6" ng-click="setOpenTab('foreman')" ng-class="{'active':openTab == 'foreman'}">
+                <span class="text">מנהלי עבודה</span>
+            </div>
             <div class="tab col-lg-1 col-sm-2 col-xs-6" ng-click="setOpenTab('architect')" ng-class="{'active':openTab == 'architect'}">
                 <span class="text">אדריכל</span>
             </div>
@@ -573,6 +576,31 @@
                     <div class="col-sm-8">
                         <textarea class="form-control" cols="30" rows="5" ng-model="tabs.project.consultants_notes"></textarea>
                     </div>
+                </div>
+            </div>
+            <div class="foreman" ng-show="openTab == 'foreman' && !loading">
+                <label class="control-label" for="">מנהלי עבודה
+                    <i class="fa fa-1x fa-fw fa-plus" ng-click="openAddWindow('managers/add','foreman_manager')"></i>
+                </label>
+                <div class="form-group row" ng-repeat="f in tabs.foreman track by $index">
+                    <div class="col-sm-3 col-xs-7">
+                        <select class="form-control" ng-model="tabs.foreman[$index].id" ng-options="a.value as a.text for a in foreman_manager_options|filter:{manager_type_id:a.value}">
+                            <option value="" ng-show="!tabs.foreman[$index].id">- בחר -</option>
+                        </select>
+                    </div>
+                    <div class="col-sm-4 col-xs-3">
+                        <div style="">{{tabs.foreman[$index].email}}</div>
+                        <div style="">{{tabs.foreman[$index].mobile}}</div>
+                        <div style="">{{tabs.foreman[$index].phone}}</div>
+                    </div>
+                    <div class="col-sm-2 col-xs-2">
+                        <div class="remove" style="height: 34px;line-height: 34px;">
+                            <a href=""><i class="fa fa-fw fa-trash-o" ng-click="removeProjectForeman($index, $event)"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="plus">
+                    <a href="" ng-click="addProjectForeman()">הוסף מנהל עבודה</a>
                 </div>
             </div>
             <div class="buildings" ng-show="openTab == 'buildings' && !loading">

@@ -80,6 +80,9 @@ class Company_Model extends MY_Model {
         $this->db->where("c.id",$id);
         $this->db->from($this->getTable()." c");
         $result = $this->db->get()->result('\Entities\Company');
+        foreach($result as $r) {
+            $r->account_manager_id = intval($r->account_manager_id);
+        }
         return count($result) ? $result[0] : [];
     }
 }
