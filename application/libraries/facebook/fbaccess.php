@@ -2,7 +2,7 @@
 
 
 $app_id		= "355759517911502";
-$app_secret	= "xxxxxxxxxxxxxxx";
+$app_secret	= "";
 $site_url	= "http://ori.212securitycamera.com/dev/basic/";
 
 try{
