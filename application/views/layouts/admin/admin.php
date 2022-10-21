@@ -30,6 +30,7 @@
         var water_specs_options = <?= isset($water_specs_options) ? json_encode($water_specs_options) : json_encode('') ?>;
         var committee_approve_options = <?= isset($committee_approve_options) ? json_encode($committee_approve_options) : json_encode('') ?>;
         var project_status_options = <?= isset($project_status_options) ? json_encode($project_status_options) : json_encode('') ?>;
+        var status_description_options = <?= isset($status_description_options) ? json_encode($status_description_options) : json_encode('') ?>;
         var project_options = <?= isset($project_options) ? json_encode($project_options) : json_encode('') ?>;
         var company_options = <?= isset($company_options) ? json_encode($company_options) : json_encode('') ?>;
         var print_shop_link_options = <?= isset($print_shop_link_options) ? json_encode($print_shop_link_options) : json_encode('') ?>;

@@ -7,6 +7,7 @@
  * @property \Entities\Building_Status $building_status
  * @property \Entities\Building_Type $building_type
  * @property \Entities\Project_Status $project_status
+ * @property \Entities\Status_Description $project_status
  * @property \Entities\Manager_Type $manager_type
  * @property \Entities\Building $building
  * @property \Entities\Architect $architect
@@ -20,6 +21,7 @@
  * @property \Building_Status_Model $building_status_model
  * @property \Building_Type_Model $building_type_model
  * @property \Project_Status_Model $project_status_model
+ * @property \Status_Description_Model $status_description_model
  * @property \Manager_Type_Model $manager_type_model
  * @property \Consultant_Type_Model $consultant_type_model
  * @property \Building_Model $building_model
@@ -58,6 +60,7 @@ class MY_Controller extends CI_Controller
 		$this->load->model('building_status_model');
         $this->load->model('building_type_model');
         $this->load->model('project_status_model');
+        $this->load->model('status_description_model');
         $this->load->model('manager_type_model');
         $this->load->model('building_model');
         $this->load->model('architect_model');

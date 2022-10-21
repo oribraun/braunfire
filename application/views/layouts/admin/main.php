@@ -30,6 +30,7 @@
         var water_specs_options = <?= isset($water_specs_options) ? json_encode($water_specs_options) : json_encode('') ?>;
         var committee_approve_options = <?= isset($committee_approve_options) ? json_encode($committee_approve_options) : json_encode('') ?>;
         var project_status_options = <?= isset($project_status_options) ? json_encode($project_status_options) : json_encode('') ?>;
+        var status_description_options = <?= isset($status_description_options) ? json_encode($status_description_options) : json_encode('') ?>;
         var project_options = <?= isset($project_options) ? json_encode($project_options) : json_encode('') ?>;
         var company_options = <?= isset($company_options) ? json_encode($company_options) : json_encode('') ?>;
         var print_shop_link_options = <?= isset($print_shop_link_options) ? json_encode($print_shop_link_options) : json_encode('') ?>;
@@ -171,6 +172,7 @@
                 <li><a href="<?= admin_url('manager_types')?>">סוגי מנהלים</a></li>
 				<li><a href="<?= admin_url('consultant_types')?>">סוגי יועצים</a></li>
                 <li><a href="<?= admin_url('project_statuses')?>">סטטוס פרוייקט</a></li>
+                <li><a href="<?= admin_url('status_descriptions')?>">תיאור סטטוסים</a></li>
                 <li><a href="<?= admin_url('print_shop_links')?>">מכון העתקות</a></li>
                 <li><a href="<?= admin_url('reports/payments')?>">דוח הוצאת פרפורמות</a></li>
                 <li><a href="<?= admin_url('logout')?>">יציאה</a></li>
@@ -203,6 +205,7 @@
 			<li><a href="<?= admin_url('consultant_types')?>">סוגי יועצים</a></li>
 			<li><a href="<?= admin_url('manager_types')?>">סוגי מנהלים</a></li>
 			<li><a href="<?= admin_url('project_statuses')?>">סטטוס פרוייקט</a></li>
+			<li><a href="<?= admin_url('status_descriptions')?>">תיאור סטטוסים</a></li>
             <li><a href="<?= admin_url('print_shop_links')?>">מכון העתקות</a></li>
 			<li><a href="<?= admin_url('reports/payments')?>">דוח הוצאת פרפורמות</a></li>
 			<li><a href="<?= admin_url('logout')?>">יציאה</a></li>
