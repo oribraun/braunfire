@@ -129,6 +129,12 @@
                 <textarea class="form-control" cols="30" rows="5" ng-model="entity.consultants_notes"></textarea>
             </div>
         </div>
+        <div class="form-group">
+            <label for="" class="col-sm-2 control-label">מספר ביקורות שניתנו</label>
+            <div class="col-sm-6">
+                <input class="form-control" ng-model="entity.project_criticism_num" type="text"/>
+            </div>
+        </div>
         <? /*
         <div class="form-group">
             <label for="" class="col-sm-2 control-label">שם מנהל</label>

@@ -744,6 +744,14 @@
                 </div>
             </div>
             <div class="project_criticism" ng-show="openTab == 'project_criticism'">
+                <hr>
+                <div class="form-group row">
+                    <label class="col-sm-2 control-label" for="">מספר ביקורות שניתנו</label>
+                    <div class="col-sm-6">
+                        <input class="form-control" ng-model="tabs.project.project_criticism_num" type="text"/>
+                    </div>
+                </div>
+                <hr>
                 <div class="project_notes-list">
                     <? if($this->user->isOwnerAdmin()):?>
                         <div style="font-size:18px;padding:10px 5px;color:red">
