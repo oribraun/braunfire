@@ -68,7 +68,7 @@
         <script src="<?= rel_url('resources/js/controllers/panelCtrl.js') ?>" type="text/javascript"></script>
     <? endif; ?>
 
-	<link rel="stylesheet" href="<?= base_url('resources/css/default.css') ?>"/>
+	<link rel="stylesheet" href="<?= rel_url('resources/css/default.css') ?>"/>
 
 	<script type="text/javascript" src="<?= rel_url('resources/tools/ckeditor-4.3.1/ckeditor.js') ?>"></script>
 	<script type="text/javascript" src="<?= rel_url('resources/tools/ckeditor-4.3.1/adapters/jquery.js') ?>"></script>
@@ -216,8 +216,8 @@
 	</div>
 </div>
 
-<? /*<script type="text/javascript" src="<?= base_url('resources/tools/animation-lib/wow.js')?>"></script>*/ ?>
-<link rel="stylesheet" href="<?= base_url('resources/tools/animation-lib/animate.css')?>"/>
+<? /*<script type="text/javascript" src="<?= rel_url('resources/tools/animation-lib/wow.js')?>"></script>*/ ?>
+<link rel="stylesheet" href="<?= rel_url('resources/tools/animation-lib/animate.css')?>"/>
 </body>
 </html>
 

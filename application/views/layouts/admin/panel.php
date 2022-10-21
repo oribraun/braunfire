@@ -61,12 +61,12 @@
 	<script src="<?= rel_url('resources/js/common.js') ?>" type="text/javascript"></script>
     <script src="<?= rel_url('resources/js/controllers/panelCtrl.js') ?>" type="text/javascript"></script>
 
-	<link rel="stylesheet" href="<?= base_url('resources/css/panel.css') ?>"/>
+	<link rel="stylesheet" href="<?= rel_url('resources/css/panel.css') ?>"/>
 
 	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="<?= rel_url('resources/tools/bootstrap-rtl-3.0.0/bootstrap-rtl.min.css') ?>">
 	<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-    <script src="http://angular-ui.github.io/bootstrap/ui-bootstrap-tpls-0.4.0.js"></script>
+    <script src="//angular-ui.github.io/bootstrap/ui-bootstrap-tpls-0.4.0.js"></script>
 
 </head>
 <body>
@@ -105,8 +105,8 @@
 	</div>
 </div>
 
-<? /*<script type="text/javascript" src="<?= base_url('resources/tools/animation-lib/wow.js')?>"></script>*/ ?>
-<link rel="stylesheet" href="<?= base_url('resources/tools/animation-lib/animate.css')?>"/>
+<? /*<script type="text/javascript" src="<?= rel_url('resources/tools/animation-lib/wow.js')?>"></script>*/ ?>
+<link rel="stylesheet" href="<?= rel_url('resources/tools/animation-lib/animate.css')?>"/>
 </body>
 </html>
 
