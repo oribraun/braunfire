@@ -6,6 +6,7 @@ class Building extends Entity {
 
     public $project_id = 0;
     public $building_name = '';
+    public $building_address = '';
     public $building_type_id = 0;
     public $building_block = '';
     public $building_lot = '';
@@ -100,6 +101,22 @@ class Building extends Entity {
     public function setBuildingName($building_name)
     {
         $this->building_name = $building_name;
+    }
+
+   /**
+     * @return string
+     */
+    public function getBuildingAddress()
+    {
+        return $this->building_address;
+    }
+
+    /**
+     * @param string $building_address
+     */
+    public function setBuildingAddress($building_address)
+    {
+        $this->building_address = $building_address;
     }
 
     /**

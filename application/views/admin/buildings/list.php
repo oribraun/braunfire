@@ -25,6 +25,7 @@
 			<th class="hidden-xs">#</th>
 			<th>שם פרוייקט</th>
 			<th>כינוי בניין</th>
+			<th class="hidden-xs">כתובת בניין</th>
 			<th class="hidden-xs">סוג בניין</th>
 			<th class="hidden-xs">מספר בניין</th>
 			<th class="hidden-xs">גוש</th>
@@ -37,6 +38,7 @@
 			<td class="hidden-xs">{{e.id}}</td>
 			<td>{{e.project_name}}</td>
 			<td>{{e.building_name}}</td>
+			<td>{{e.building_address}}</td>
 			<td class="hidden-xs">{{e.building_type_name}}</td>
 			<td class="hidden-xs">{{e.building_num}}</td>
 			<td class="hidden-xs">{{e.building_block}}</td>

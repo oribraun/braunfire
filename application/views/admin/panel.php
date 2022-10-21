@@ -607,7 +607,7 @@
                 <div class="building-tabs">
                     <ul>
                         <li class="tab" ng-repeat="b in tabs.buildings track by $index" ng-click="setCurrentBuilding($index)" ng-class="{'active': currentBuilding == $index}">
-                            {{b.building_name}}
+                            <span title={{b.building_address}}>{{b.building_name}}</span>
                             <span class="remove" ng-if="b.added" ng-click="removeBuilding($index)">
                                 <i class="fa fw fa-minus"></i>
                             </span>
@@ -623,6 +623,12 @@
                             <label class="col-sm-4 control-label" for="">שם בניין</label>
                             <div class="col-sm-8">
                                 <input class="form-control" ng-model="b.building_name" type="text"/>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label class="col-sm-4 control-label" for="">כתובת בניין</label>
+                            <div class="col-sm-8">
+                                <input class="form-control" ng-model="b.building_address" type="text"/>
                             </div>
                         </div>
                         <div class="form-group row">

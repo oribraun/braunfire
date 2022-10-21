@@ -17,6 +17,12 @@
 				<input class="form-control" ng-model="entity.building_name" type="text"/>
 			</div>
 		</div>
+		<div class="form-group">
+            <label for="" class="col-sm-2 control-label">כתובת בניין</label>
+            <div class="col-sm-6">
+                <input class="form-control" ng-model="entity.building_address" type="text"/>
+            </div>
+        </div>
         <div class="form-group">
             <label for="" class="col-sm-2 control-label">סוג בניין</label>
             <div class="col-sm-6">
@@ -62,8 +68,8 @@
             </div>
         </div>
         <div class="form-group row">
-            <label class="col-sm-4 control-label" for="">מס' החלטת ועדה</label>
-            <div class="col-sm-8">
+            <label class="col-sm-2 control-label" for="">מס' החלטת ועדה</label>
+            <div class="col-sm-6">
                 <input class="form-control" ng-model="b.committee_approve_num" type="text"/>
             </div>
         </div>
