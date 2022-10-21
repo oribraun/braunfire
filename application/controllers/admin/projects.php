@@ -18,6 +18,7 @@ class Projects extends Admin_Controller {
 	{
         $data = [];
         $data['project_status_options'] = $this->project_status_model->get_options();
+        $data['status_description_options'] = $this->status_description_model->get_options();
         $data['architect_options'] = $this->architect_model->get_options();
         $data['company_options'] = $this->company_model->get_options();
         $data['water_specs_options'] = $this->project_model->get_water_specs_options();
@@ -35,6 +36,7 @@ class Projects extends Admin_Controller {
 		$data = [];
 		$data['entity'] = $this->project_model->newInstance();
 		$data['project_status_options'] = $this->project_status_model->get_options();
+		$data['status_description_options'] = $this->status_description_model->get_options();
 		$data['architect_options'] = $this->architect_model->get_options();
 		$data['company_options'] = $this->company_model->get_options();
         $data['water_specs_options'] = $this->project_model->get_water_specs_options();
@@ -54,6 +56,7 @@ class Projects extends Admin_Controller {
 		$data = [];
 		$data['entity'] = $entity;
         $data['project_status_options'] = $this->project_status_model->get_options();
+        $data['status_description_options'] = $this->status_description_model->get_options();
         $data['architect_options'] = $this->architect_model->get_options();
         $data['company_options'] = $this->company_model->get_options();
         $data['water_specs_options'] = $this->project_model->get_water_specs_options();
@@ -140,4 +143,4 @@ class Projects extends Admin_Controller {
 		}
 	}
 
-} 
+}

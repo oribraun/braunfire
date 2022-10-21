@@ -107,6 +107,15 @@
                         </select>
                     </div>
                 </div>
+                <div class="form-group row">
+                    <label class="col-sm-4 control-label" for="">תיאור סטטוס
+                        <i class="fa fa-1x fa-fw fa-plus" ng-click="openAddWindow('status_descriptions/add','status_description')"></i></label>
+                    <div class="col-sm-8">
+                        <select class="form-control" ng-model="tabs.project.status_description_id" ng-options="a.value as a.text for a in status_description_options">
+                            <option value="">- בחר -</option>
+                        </select>
+                    </div>
+                </div>
                 <? /*
                 <div class="form-group row">
                     <label class="col-sm-4 control-label" for="">מצב פרוייקט</label>
@@ -526,6 +535,12 @@
                 <div class="form-group row" ng-show="tabs.project_manager.created">
                     <div class="col-sm-4"><strong>נוצר:</strong></div>
                     <div class="col-sm-8">{{tabs.company.created}}</div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-sm-4 control-label" for="">הערות מנהל לפרוייקט</label>
+                    <div class="col-sm-8">
+                        <textarea class="form-control" cols="30" rows="5" ng-model="tabs.project.manager_notes"></textarea>
+                    </div>
                 </div>
                 <? /*
                 <div><strong>אימייל:</strong> {{tabs.company.email}}</div>

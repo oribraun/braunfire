@@ -43,6 +43,14 @@
                 </select>
             </div>
         </div>
+        <div class="form-group">
+            <label for="" class="col-sm-2 control-label">תיאור סטטוס</label>
+            <div class="col-sm-6">
+                <select class="form-control" ng-model="entity.status_description_id" ng-options="a.value as a.text for a in status_description_options">
+                    <option value="" ng-show="!entity.status_description_id">- בחר -</option>
+                </select>
+            </div>
+        </div>
         <? /*
         <div class="form-group">
             <label for="" class="col-sm-2 control-label">מצב פרוייקט</label>
@@ -127,6 +135,12 @@
             <label for="" class="col-sm-2 control-label">הערות יועצים לפרוייקט</label>
             <div class="col-sm-6">
                 <textarea class="form-control" cols="30" rows="5" ng-model="entity.consultants_notes"></textarea>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="" class="col-sm-2 control-label">הערות מנהל לפרוייקט</label>
+            <div class="col-sm-6">
+                <textarea class="form-control" cols="30" rows="5" ng-model="entity.manager_notes"></textarea>
             </div>
         </div>
         <div class="form-group">

@@ -26,6 +26,7 @@ class Project extends Entity {
     public $working_user_id = 0;
     public $consultants_notes = '';
     public $project_criticism_num = 0;
+    public $manager_notes = '';
 
 	public function __construct($o=null)
 	{
@@ -379,6 +380,23 @@ class Project extends Entity {
     {
         $this->consultants_notes = $consultants_notes;
     }
+
+    /**
+     * @return string
+     */
+    public function getManagerNotes()
+    {
+        return $this->manager_notes;
+    }
+
+    /**
+     * @param string $manager_notes
+     */
+    public function setManagerNotes($manager_notes)
+    {
+        $this->manager_notes = $manager_notes;
+    }
+
 
     /**
      * @return int

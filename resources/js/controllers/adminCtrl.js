@@ -6,6 +6,7 @@ app.controller('AdminCtrl',['$scope','$http','$rootScope','$timeout','ajaxServic
     $scope.architect_options = architect_options;
     $scope.manager_type_options = manager_type_options;
     $scope.project_manager_options = project_manager_options;
+    $scope.status_description_options = status_description_options;
     $scope.account_manager_options = account_manager_options;
     $scope.water_specs_options = water_specs_options;
     $scope.committee_approve_options = committee_approve_options;
