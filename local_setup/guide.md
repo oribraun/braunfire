@@ -7,3 +7,7 @@ download php
 and make sure you clone php.ini file and change
 
 extension_dir="C:\{your-php-folder}\ext\"
+
+create web.config file without adding to git.
+
+copy the content of web-dev.config
