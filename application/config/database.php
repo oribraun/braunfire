@@ -57,12 +57,12 @@ $active_record = TRUE;
 //$db['default']['username'] = 'u519153503_braun';
 //$db['default']['password'] = 'tzfwQYWG2U';
 //$db['default']['database'] = 'u519153503_braun';
-$db['default']['hostname'] = 'localhost';
-$db['default']['username'] = 'braunfir';
+$db['default']['hostname'] = getenv('DB_HOSTNAME');
+$db['default']['username'] = getenv('DB_USERNAME');
 //$db['default']['password'] = '[a147bc]@A';
-$db['default']['password'] = '#zB2nmX*()_3!';
-$db['default']['database'] = 'braunfir_braunfire';
-$db['default']['dbdriver'] = 'mysqli';
+$db['default']['password'] = getenv('DB_PASSWORD');
+$db['default']['database'] = getenv('DB_DATABASE');
+$db['default']['dbdriver'] = getenv('DB_DRIVER');
 $db['default']['dbprefix'] = '';
 //$db['default']['pconnect'] = TRUE;  original setting
 $db['default']['pconnect'] = FALSE;
@@ -75,8 +75,14 @@ $db['default']['swap_pre'] = '';
 $db['default']['autoinit'] = TRUE;
 $db['default']['stricton'] = FALSE;
 
-define('TIMEZONE', 'Israel');
-date_default_timezone_set(TIMEZONE);
+// $db['default']['hostname'] = 'localhost';
+// $db['default']['username'] = 'root';
+// $db['default']['password'] = '123456';
+// $db['default']['database'] = 'braunfir';
+// $db['default']['dbdriver'] = 'mysqli';
+
+//define('TIMEZONE', 'Israel');
+//date_default_timezone_set(TIMEZONE);
 
 
 /* End of file database.php */

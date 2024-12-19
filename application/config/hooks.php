@@ -14,3 +14,9 @@
 
 /* End of file hooks.php */
 /* Location: ./application/config/hooks.php */
+
+$hook['pre_system'][] = array(
+        'function' => 'load_env',
+        'filename' => 'Env_loader.php',
+        'filepath' => 'helpers',
+);

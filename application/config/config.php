@@ -16,7 +16,7 @@
 */
 //$config['base_url']	= 'http://nozend.local/braun';
 //$config['base_url']	= 'http://braun.cu.cc';
-$config['base_url']	= 'http://braunfire.com';
+$config['base_url']	= getenv('BASE_URL');
 $config['admin_path'] = 'admin_737';
 
 /*
@@ -94,7 +94,7 @@ $config['charset'] = 'UTF-8';
 | setting this variable to TRUE (boolean).  See the user guide for details.
 |
 */
-$config['enable_hooks'] = FALSE;
+$config['enable_hooks'] = TRUE;
 
 
 /*
@@ -380,3 +380,5 @@ define('SSL_MODE_ALLOW', 1);
 define('SSL_MODE_FORCE', 2);
 
 require(APPPATH.'third_party/entities.php');
+
+$config['composer_autoload'] = TRUE;
