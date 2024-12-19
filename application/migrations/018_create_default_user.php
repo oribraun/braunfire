@@ -8,9 +8,9 @@ class Migration_Create_default_user extends CI_Migration {
 //         $this->load->library('Env_loader');
         // Prepare data for the default admin user
         $this->load->model('user_model');
-        echo "start setting up user\n";
+        echo "start setting up user<br>\n";
         $this->insert_default_user();
-        echo "done setting up user";
+        echo "done setting up user<br>\n";
     }
 
     public function down()
@@ -46,6 +46,6 @@ class Migration_Create_default_user extends CI_Migration {
         $this->db->insert('users', $data);
 
         // Output message to confirm the user creation
-        echo "Default super admin user created successfully.";
+        echo "Default super admin user created successfully.<br>\n";
     }
 }

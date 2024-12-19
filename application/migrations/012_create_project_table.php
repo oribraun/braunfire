@@ -120,8 +120,8 @@ class Migration_Create_project_table extends CI_Migration {
             'manager_notes' => array(
                 'type' => 'TEXT',
             ),
-            'created_at datetime default current_timestamp',
-            'updated_at datetime default current_timestamp on update current_timestamp',
+            'created datetime default current_timestamp',
+            'updated datetime default current_timestamp on update current_timestamp',
         ));
 
         // Add primary key

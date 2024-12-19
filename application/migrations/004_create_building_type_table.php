@@ -18,8 +18,8 @@ class Migration_Create_building_type_table extends CI_Migration {
                 'constraint' => '255',
                 'default' => ''
             ),
-            'created_at datetime default current_timestamp',
-            'updated_at datetime default current_timestamp on update current_timestamp',
+            'created datetime default current_timestamp',
+            'updated datetime default current_timestamp on update current_timestamp',
         ));
 
         // Add primary key
